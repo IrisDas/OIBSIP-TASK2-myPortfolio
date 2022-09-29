@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,400&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,400&family=Oswald:wght@500&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(234, 168, 205);
+    width: 300px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    height: 92vh;
+    padding: 30px;
+}
+
+.sidebar nav {
+    padding: 50px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    background-color: rgb(42, 71, 80);
+    width: 90vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background-color: rgb(206, 197, 197);
+    height: 23vw;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hello {
+    font-size: 65px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about {
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px;
+}
+
+.more {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(221, 98, 139);
+    margin-top: 10px;
+
+
+}
+
+.buttons button {
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.picture img {
+    width: 380px;
+    height: 353px;
+
+}
+
+
+
+
+
+.myself {
+    margin-left: 100px;
+    margin-right: 150px;
+    font-size: 30px;
+    padding-left: 70px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+
+
+}
+
+.down img {
+    padding-left: 320px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+
+
+
+.contactform {
+    padding-top: 150px;
+    padding: 25 34px;
+    padding-left: 80px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 40px;
+}
+
+.contactform h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(221, 98, 139);
+
+}
+
+.contactform form div {
+    padding: 15px 0;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 6px 0 0 0;
+}
+
+#emailHelp {
+    font-size: 15px;
+    color: white;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+
+
+}
+
+#form-check input {
+    width: 30px;
+    margin: 4px 0;
+
+}
+
+.contactform form button {
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(221, 98, 139);
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.blogItem {
+    margin: 25px;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+.blogItem h2 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+.blogItem p {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(221, 98, 139);
+    font-size: large;
+    margin: 25px;
+
+}
+
+.blogContainer h1 {
+    font-family: 'Oswald', sans-serif;
+    margin: 16px;
+    color: rgb(221, 98, 139);
+    margin-left: 30px;
+    text-align: center;
+
+
+}
+
+#form-check2 {
+    color: white;
+    margin: 16px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+.intro1 h4 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: xx-large;
+    margin: 20px;
+    color: black;
+
+}
+
+.intro1 h5 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: xx-large;
+    margin: 20px;
+    color: black;
+
+}
+
+.intro1 p {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(221, 98, 139);
+    font-size: large;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+.main h7 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 300px;
+    padding: 40px;
+}
+
+.topic1 {
+    color: rgb(221, 98, 139);
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    margin: 30px;
+
+}
+
+.service1 li {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+.myself {
+    padding: 60px;
+}
